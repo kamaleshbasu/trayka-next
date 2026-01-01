@@ -1,0 +1,514 @@
+{
+  "lang": "中文",
+  "kb": "知识库",
+  "kb_desc": "将你的表格、文档、媒体和演示文稿转换成一个问答助手。",
+  "zta": "零接触自动化",
+  "zta_desc": "由智能体驱动的端到端自动化——更高效、更省成本。",
+  "company": "公司",
+  "services": "服务",
+  "resources": "资源",
+  "blog": "博客",
+  "book": "预约演示",
+  "book_desc": "预约一次免费咨询，了解如何优化你的业务流程。",
+  "newsletter": "订阅简讯",
+  "newsletter_desc": "订阅我们的简讯，获取 Trayka 的产品和服务最新动态。",
+  "contactus": "联系我们",
+  "launch": "启动项目",
+  "case-studies": "案例研究",
+  "cancel": "取消",
+  "submit": "提交",
+  "more": "了解更多",
+  "print": "打印",
+  "backtohome": "返回首页",
+  "challenge": "问题",
+  "kb_and_zta" : "RAG 知识库与零接触自动化",
+
+  "dialog": {
+    "project": {
+      "title": "项目详情",
+      "desc": "告诉我们你想构建什么——知识库、自动化、客服智能体或其他。"
+    },
+    "newsletter": {
+      "title": "订阅我们的简讯",
+      "desc": "获取 AI 洞察、行业动态与 Trayka 服务更新。"
+    },
+    "case-studies": {
+      "title": "案例研究",
+      "desc": "告诉我们你希望通过什么方式接收案例研究。"
+    },
+    "name": "姓名",
+    "email": "邮箱地址",
+    "newsletter_cta": "订阅我们的简讯",
+    "newsletter_cta_desc": "获取行业新闻、产品与服务的相关更新。",
+    "brief": "你的项目简介",
+    "messages": {
+      "confirm": {
+        "case-study": "你将很快收到案例研究。",
+        "project": "我们会尽快与你联系。",
+        "generic": "感谢你的关注。"
+      },
+      "error": {
+        "captcha": "抱歉，发生错误。CAPTCHA V3 验证失败。",
+        "generic": "抱歉，发生错误。请再试一次。",
+        "network": "网络错误，请稍后再试。"
+      }
+    }
+  },
+  "errors": {
+    "invalid_name": "请输入有效的姓名。",
+    "invalid_email": "请输入有效的邮箱地址。"
+  },
+  "home": {
+    "hero": {
+      "slogan": "自动化 · 回答 · 加速",
+      "title": "真正能干活的智能体 AI",
+      "description": "Trayka 将零接触自动化与 AI 知识访问结合，让团队更快协作，为客户和团队提供可验证的答案，并在不增加负担的情况下扩展业务。"
+    },
+    "solutions": {
+      "title": "Trayka 能带来什么",
+      "slogan": "两大能力，一个平台。",
+      "zta": "自动化处理复杂、多步骤的工作流程——从接收请求到完成，包括审批、路由、日志与升级——全程具备治理能力和实时可视化。",
+      "kb": "提供快速且可靠的回答，并且完全基于你组织内部的可信来源——覆盖聊天、邮件、门户和内部系统——确保信息准确、合规、持续更新。"
+    },
+    "cta": {
+      "header": "让你的流程与知识实现自我运转",
+      "description": "通过试点或演示开启你的自动化与知识管理之旅。"
+    }
+  },
+  "faqs": {
+    "title": "常见问题",
+    "header": "用户最常问的问题",
+    "description": "Trayka 的零接触自动化和 AI 知识访问（基于 RAG）非常容易上手且成本低。",
+    "questions": [
+      {
+        "question": "什么是 Trayka？",
+        "answer": "Trayka 是一个结合零接触自动化和 AI 知识访问的平台，帮助组织自动化流程、提供经过验证的答案，并高效扩展业务，而不增加额外负担。"
+      },
+      {
+        "question": "什么是零接触自动化（ZTA）？",
+        "answer": "零接触自动化可自动处理复杂、多步骤的流程，如审批、路由、升级和审计，实现完整治理、日志记录与合规性，无需人工干预。"
+      },
+      {
+        "question": "什么是 AI 知识访问？",
+        "answer": "AI 知识访问利用 RAG（检索增强生成）从你组织的可信文档中提供经过验证的答案，确保信息准确、合规并保持最新。"
+      },
+      {
+        "question": "ZTA 和 RAG 能独立运行吗？",
+        "answer": "可以。ZTA 可在不使用知识库的情况下自动化流程，RAG 也可以独立提供可信回答。它们结合时价值最高，但也可以单独部署。"
+      },
+      {
+        "question": "ZTA 和 RAG 如何协同工作？",
+        "answer": "ZTA 处理自动化操作，而 RAG 在关键决策点提供可信的上下文与回答，两者结合可实现流程自主化与高质量信息输出。"
+      },
+      {
+        "question": "Trayka 安全吗？",
+        "answer": "是的。Trayka 采用严格的访问控制、加密、日志审计和治理策略。所有自动化和 AI 回答都基于你批准的内容来源。"
+      },
+      {
+        "question": "我的数据存储在哪里？",
+        "answer": "你的数据会安全存储在你选择的云区域，并遵循严格的访问策略。若需要，也可在你的自有服务器上本地部署。Trayka 不使用或共享你的数据进行模型训练。"
+      },
+      {
+        "question": "Trayka 会保存或记录用户对话吗？",
+        "answer": "Trayka 仅在你组织需要时才保留可审计的对话日志。对话数据不会用于外部训练，完全由你掌控。"
+      },
+      {
+        "question": "Trayka 如何确保遵守组织政策？",
+        "answer": "所有流程和知识回答都限制在已验证的来源范围内。治理规则、基于角色的访问和可追踪性确保合规。"
+      },
+      {
+        "question": "Trayka 能与我们现有的工具集成吗？",
+        "answer": "可以。Trayka 可与 WhatsApp 及其他聊天工具、邮件系统、CRM、内部门户、HRMS 平台、数据存储以及自定义 API 集成，无缝融入您组织的工作流程。"
+      }
+    ]
+  },
+  "rags": {
+    "challenges": [
+      {
+        "title": "内容分散",
+        "description": "关键信息分散在各种硬盘、聊天和邮件中。",
+        "iconData": {
+          "name": "chat-email"
+        }
+      },
+      {
+        "title": "搜索耗时长",
+        "description": "团队花费 30–40% 的时间在找资料。",
+        "iconData": {
+          "name": "search-multiple"
+        }
+      },
+      {
+        "title": "重复的支持请求",
+        "description": "客服团队被大量 FAQ 淹没——浪费宝贵时间。",
+        "iconData": {
+          "name": "support"
+        }
+      },
+      {
+        "title": "信息过时",
+        "description": "政府门户通常会落后政策更新 2–6 周。",
+        "iconData": {
+          "name": "info-calendar"
+        },
+        "theme": "secondary"
+      }
+    ],
+    "steps": [
+      {
+        "title": "收集与索引",
+        "description": "整理你的文档，让系统更好地理解每个主题。"
+      },
+      {
+        "title": "构建与部署",
+        "description": "部署私有或公共聊天助手，仅基于可信内容回答问题。"
+      },
+      {
+        "title": "优化与改进",
+        "description": "持续改进回答，通过补充内容缺口与更新信息来提升质量。"
+      },
+      {
+        "title": "升级至人工团队",
+        "description": "对复杂或敏感的问题自动转给最合适的部门。"
+      },
+      {
+        "title": "分析与洞察",
+        "description": "了解用户搜索趋势，优化内容，减少重复问询。"
+      },
+      {
+        "title": "持续更新",
+        "description": "保持信息新鲜，定期更新文档以确保答案准确。"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "更快的入职",
+        "description": "帮助新员工更快熟悉业务。",
+        "iconData": {
+          "name": "team-alt"
+        }
+      },
+      {
+        "title": "更高效的支持",
+        "description": "即时回答 FAQ，降低客服压力。",
+        "iconData": {
+          "name": "checkmark-2"
+        }
+      },
+      {
+        "title": "数据所有权与治理",
+        "description": "托管在你选择的云环境中，具备审计与访问控制。",
+        "iconData": {
+          "name": "database"
+        }
+      },
+      {
+        "title": "多语言与包容性",
+        "description": "支持多语言，为更多用户提供友好体验。",
+        "iconData": {
+          "name": "language"
+        }
+      }
+    ],
+    "title": "RAG 驱动的知识库",
+    "hero": {
+      "title": "更智能、可验证的知识访问——由 AI 驱动",
+      "description": "Trayka 是一个完整的平台，用于构建与部署企业或政府机构的 AI 知识智能体。",
+      "slogan": "更快上手 · 更聪明的支持 · 更快乐的团队"
+    },
+    "challenge": {
+      "title": "你的知识存在，只是无法访问",
+      "desc1": "组织每天都会产生大量知识——邮件、文档、表格、媒体、演示和聊天记录——但因为缺乏结构，很难被检索出来。",
+      "desc2": "重新寻找或重建这些知识的成本会迅速累积。"
+    },
+    "solution": {
+      "title": "RAG 解决方案",
+      "header": "Trayka 如何打造无摩擦知识库",
+      "description": "Trayka 将精准文档检索与 LLM 结合，通过 WhatsApp、Instagram、Facebook 等聊天界面生成准确、有语境的回答。"
+    },
+    "benefit": {
+      "title": "关键优势",
+      "header": "你的组织将获得",
+      "description": "可信、高效、强留存——所有回答均来自经过批准的内容。"
+    },
+    "cta": {
+      "header": "释放你组织知识的力量",
+      "description": "使用 Trayka，让你的知识库更加流畅高效。"
+    }
+  },
+  "ztas": {
+    "challenges": [
+      {
+        "title": "手工且多步骤的流程",
+        "description": "许多任务需要人工收集、分类、路由和跟进。",
+        "iconData": {
+          "name": "team-alt"
+        }
+      },
+      {
+        "title": "请求延迟",
+        "description": "由于路由不清晰，流程在团队之间来回跳转；审批和升级依赖人工而非自动规则。",
+        "iconData": {
+          "name": "time"
+        }
+      },
+      {
+        "title": "员工带宽不足",
+        "description": "预订、更新、确认以及记录案例每天要花费大量时间。",
+        "iconData": {
+          "name": "support"
+        }
+      },
+      {
+        "title": "服务延误",
+        "description": "没有自动跟踪时，服务交付容易不可控；SLA 违约往往因人工监控不足而发生。",
+        "iconData": {
+          "name": "timeline"
+        }
+      },
+      {
+        "title": "无法持续运转",
+        "description": "人工无法实现 24×7 的工作流执行——但智能体可以。",
+        "iconData": {
+          "name": "developer"
+        }
+      }
+    ],
+    "steps": [
+      {
+        "title": "收集与结构化",
+        "description": "收集表单、消息和流程输入，让智能体理解每条请求。"
+      },
+      {
+        "title": "构建与部署智能体",
+        "description": "创建受治理的私有智能体，基于验证过的流程执行任务。"
+      },
+      {
+        "title": "优化自动化",
+        "description": "弥补流程缺口，调整规则，提高准确性和效率。"
+      },
+      {
+        "title": "智能升级",
+        "description": "对敏感或复杂案例进行人工升级，并自动补齐上下文。"
+      },
+      {
+        "title": "分析与改进",
+        "description": "监控模式、SLA 和瓶颈，减少人工负担，提高绩效。"
+      },
+      {
+        "title": "持续更新",
+        "description": "通过不断更新流程与内容维持自动化的可靠性。"
+      }
+    ],
+    "benefits": [
+      {
+        "title": "更快入职",
+        "description": "自动化流程让新员工快速上手。",
+        "iconData": {
+          "name": "team-alt"
+        }
+      },
+      {
+        "title": "更高效支持",
+        "description": "智能体即时处理常规任务，让团队专注更高价值的工作。",
+        "iconData": {
+          "name": "checkmark-2"
+        }
+      },
+      {
+        "title": "数据所有权与治理",
+        "description": "在你的基础设施上运行自动化，具备完整审计与权限控制。",
+        "iconData": {
+          "name": "database"
+        }
+      },
+      {
+        "title": "多语言与包容性",
+        "description": "通过一致、自动化的回答为不同语言的用户服务。",
+        "iconData": {
+          "name": "language"
+        }
+      },
+      {
+        "title": "24×7 自动运行",
+        "description": "自动化流程全天候运行，让服务随时响应。",
+        "iconData": {
+          "name": "developer"
+        },
+        "theme": "secondary"
+      },
+      {
+        "title": "一致且无错误",
+        "description": "智能体基于验证流程执行任务，避免人为错误。",
+        "iconData": {
+          "name": "docket-check"
+        },
+        "theme": "secondary"
+      },
+      {
+        "title": "更快速的处理",
+        "description": "自动路由、更新与跟进加快跨团队处理速度。",
+        "iconData": {
+          "name": "flash"
+        },
+        "theme": "secondary"
+      },
+      {
+        "title": "可扩展且更省成本",
+        "description": "通过部署更多智能体来扩容，而无需增加人员成本。",
+        "iconData": {
+          "name": "launch"
+        },
+        "theme": "secondary"
+      }
+    ],
+    "title": "零接触自动化智能体",
+    "hero": {
+      "title": "自动化自己运行——为了真实工作而构建的智能体 AI",
+      "description": "Zero-Touch Automation 是 Trayka 的智能体自动化平台，能够端到端完成任务，如预约、投诉路由、内部流程和审批，并保持可审计与可治理。",
+      "slogan": "少做一点 · 自动更多 · Zero Touch"
+    },
+    "challenge": {
+      "title": "手工流程降低组织效率",
+      "desc1": "流程中任意一步缺乏自动化都会导致后续延迟。",
+      "desc2": "手工流程限制了组织以低成本扩展的能力。"
+    },
+    "solution": {
+      "title": "ZTA 解决方案",
+      "header": "Trayka 如何在安全与治理下实现自动化流程",
+      "description": "从接收请求到完成任务，智能体会根据已验证流程执行，并生成可审计的结果。"
+    },
+    "benefit": {
+      "title": "关键收益",
+      "header": "你的组织将获得",
+      "description": "安全、可预测的自动化——每项任务都经过验证且可审计。"
+    },
+    "cta": {
+      "header": "让你的流程实现自我运行",
+      "description": "与 Trayka 一起开启自动化之旅。"
+    }
+  },
+  "career": {
+    "label": "招贤纳士",
+    "title": "加入 Trayka 团队",
+    "description": "加入一个小而专注的团队，打造隐私优先的自动化与智能体 AI 工具。",
+    "slogan": "在这里，好奇的人创造大胆的点子",
+    "how-to-apply": "如何申请",
+    "apply-desc": "发送一封简短邮件，内容包括：",
+    "review": "我们会持续审阅简历，并仅联系进入面试的候选人。",
+    "equal": {
+      "title": "平等机会",
+      "description": "Trayka LLC 是一家提供平等机会的雇主。我们欢迎来自多元背景的申请者，不会因种族、宗教、性别、取向、年龄、残疾或其他受保护身份而歧视。"
+    },
+    "query": {
+      "title": "有问题吗？",
+      "description": "如果你对职位或招聘流程有疑问，请发送邮件至："
+    },
+    "apply-details": [
+      "你的简历或经验简介",
+      "你感兴趣的方向（工程、产品、研究、设计）",
+      "GitHub、作品集或相关项目（如有）",
+      "可开始工作的日期与时区"
+    ],
+    "jobs": [
+      {
+        "title": "市场实习生",
+        "description": "与市场和产品团队合作，创建内容、运营活动，并支持增长实验。",
+        "responsibilities": [
+          "创作社交媒体短内容",
+          "协助社区互动",
+          "支持市场实验与调研",
+          "与产品团队合作优化信息表达"
+        ],
+        "profile": [
+          {
+            "title": "优秀的文字能力",
+            "description": "能够清晰表达并制作吸引人的短内容。"
+          },
+          {
+            "title": "对市场与 AI 的兴趣",
+            "description": "你对 AI 和 SaaS 产品的增长模式充满好奇。"
+          },
+          {
+            "title": "创造力",
+            "description": "你喜欢头脑风暴内容点子并尝试不同表达方式。"
+          },
+          {
+            "title": "熟悉社交媒体",
+            "description": "理解内容在 Instagram、LinkedIn、TikTok 上的传播方式。"
+          }
+        ],
+        "opening": 2
+      },
+      {
+        "title": "软件测试实习生",
+        "description": "协助工程团队进行 QA、软件测试、功能开发和早期自动化实验。",
+        "responsibilities": [
+          "协助多个项目的 QA 测试",
+          "与工程团队合作开发小功能",
+          "记录测试结果与案例",
+          "支持 RAG/自动化相关实验"
+        ],
+        "profile": [
+          {
+            "title": "基础编程或测试经验",
+            "description": "对编程或测试工具有入门级了解。"
+          },
+          {
+            "title": "对 AI 系统的好奇心",
+            "description": "你喜欢探索智能体与自动化系统的工作方式。"
+          },
+          {
+            "title": "细心与严谨",
+            "description": "能够发现问题、不一致之处和改进空间。"
+          },
+          {
+            "title": "乐于学习",
+            "description": "渴望获得工程实践经验，喜欢向导师学习。"
+          }
+        ],
+        "opening": 2
+      },
+      {
+        "title": "研究实习生",
+        "description": "研究 AI 趋势、分析数据、支持产品策略并提供决策洞察。",
+        "responsibilities": [
+          "开展结构化研究，包括 AI、自动化与市场趋势",
+          "分析用户行为与内部指标",
+          "通过报告与洞察支持产品策略",
+          "与市场及技术团队合作跨部门项目"
+        ],
+        "profile": [
+          {
+            "title": "逻辑分析能力",
+            "description": "能够拆解信息并形成基于证据的结论。"
+          },
+          {
+            "title": "对 AI、心理学或产品策略的兴趣",
+            "description": "你喜欢研究人们如何使用技术及影响采用的因素。"
+          },
+          {
+            "title": "清晰沟通能力",
+            "description": "能将复杂发现整理成简明洞察或演示。"
+          },
+          {
+            "title": "好奇心驱动",
+            "description": "喜欢提问、探索模式并深入挖掘主题。"
+          }
+        ],
+        "opening": 1
+      }
+    ]
+  },
+  "privacy": {
+    "label": "隐私政策",
+    "contact-cta": "联系隐私团队",
+    "description": "Trayka LLC 致力于保护你的隐私，并按照行业标准妥善处理你的数据。",
+    "slogan": "智能自动化，隐私不妥协。"
+  },
+  "404": {
+    "title": "哎呀！页面走丢了。",
+    "description": "看起来这个链接拐错了弯。你正在寻找的页面不在这里——可以返回首页或探索新的内容。",
+    "slogan": "告诉我们如何帮助你。"
+  }
+}

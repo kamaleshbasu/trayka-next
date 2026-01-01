@@ -1,0 +1,522 @@
+{
+  "lang": "Español",
+  "kb": "Base de Conocimiento",
+  "kb_desc": "Convierte tus hojas de cálculo, documentos, medios y presentaciones en un asistente de preguntas y respuestas",
+
+  "zta": "Automatización Zero-Touch",
+  "zta_desc": "Automatización integral impulsada por IA agente: eficiente y rentable",
+  "company": "Empresa",
+  "services": "Servicios",
+  "resources": "Recursos",
+  "blog": "Blog",
+  "book": "Reservar una demo",
+  "book_desc": "Programa una consulta gratuita para analizar cómo optimizar tus operaciones",
+  "newsletter": "Boletín",
+  "newsletter_desc": "Suscríbete a nuestro boletín para recibir actualizaciones sobre productos y servicios de Trayka",
+  "contactus": "Contáctanos",
+  "launch": "Iniciar proyecto",
+  "case-studies": "Casos de estudio",
+  "cancel": "Cancelar",
+  "submit": "Enviar",
+  "more": "Más información",
+  "backtohome": "Volver al inicio",
+  "challenge": "El problema",
+  "kb_and_zta" : "Base de Conocimiento RAG y Automatización Zero-Touch",
+
+  "dialog": {
+    "project": {
+      "title": "Detalles del proyecto",
+      "desc": "Cuéntanos qué deseas construir — Base de Conocimiento, Automatización, Agente de Atención al Cliente u otro."
+    },
+    "newsletter": {
+      "title": "Suscríbete a nuestro boletín",
+      "desc": "Recibe información sobre IA, noticias del sector y actualizaciones de los servicios de Trayka."
+    },
+    "case-studies": {
+      "title": "Casos de estudio",
+      "desc": "Cuéntanos cómo podemos enviarte los casos de estudio."
+    },
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "newsletter_cta": "Suscríbete a nuestro boletín",
+    "newsletter_cta_desc": "Recibe actualizaciones sobre noticias relevantes del sector, productos y servicios.",
+    "brief": "Descripción de tu proyecto",
+    "messages": {
+      "confirm": {
+        "case-study": "Recibirás los casos de estudio en breve.",
+        "project": "Nos pondremos en contacto contigo pronto.",
+        "generic": "Gracias por tu interés."
+      },
+      "error": {
+        "captcha": "Lo sentimos, pero ocurrió un error. La verificación de CAPTCHA V3 falló.",
+        "generic": "Lo sentimos, pero ocurrió un error. Por favor, inténtalo nuevamente.",
+        "network": "Error de red. Inténtalo de nuevo más tarde."
+      }
+    }
+  },
+
+  "errors": {
+    "invalid_name": "Por favor, introduce un nombre válido",
+    "invalid_email": "Por favor, introduce un correo electrónico válido"
+  },
+
+  "home": {
+    "hero": {
+      "slogan": "Automatiza. Responde. Acelera.",
+      "title": "IA agente para trabajo real",
+      "description": "Trayka unifica la Automatización Zero-Touch y el Acceso a Conocimiento por IA, permitiendo a los equipos trabajar más rápido, ofrecer respuestas verificables a clientes y equipos, y escalar operaciones sin añadir cargas adicionales."
+    },
+    "solutions": {
+      "title": "Lo que ofrece Trayka",
+      "slogan": "Dos capacidades. Una plataforma.",
+      "zta": "Automatiza flujos de trabajo complejos y de múltiples pasos desde la entrada hasta la resolución — incluyendo aprobaciones, enrutamiento, registros y escalaciones — todo con gobernanza completa y visibilidad en tiempo real entre equipos.",
+      "kb": "Proporciona respuestas rápidas y confiables extraídas únicamente de las fuentes aprobadas de tu organización — a través de chat, correo, portales y sistemas internos — manteniendo precisión, cumplimiento y contenido actualizado en todas partes."
+    },
+    "cta": {
+      "header": "Da a tus flujos de trabajo y conocimiento la capacidad de funcionar por sí mismos",
+      "description": "Inicia tu viaje de automatización y conocimiento con un piloto o una demo."
+    }
+  },
+
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "header": "Consultas comunes que recibimos",
+    "description": "La Automatización Zero-Touch y el Acceso a Conocimiento con IA (impulsado por RAG) de Trayka es muy fácil y económico de implementar.",
+    "questions": [
+      {
+        "question": "¿Qué es Trayka?",
+        "answer": "Trayka es una plataforma de IA que combina Automatización Zero-Touch y Acceso a Conocimiento por IA. Ayuda a las organizaciones a automatizar flujos de trabajo, ofrecer respuestas verificadas y escalar operaciones de forma eficiente sin aumentar cargas."
+      },
+      {
+        "question": "¿Qué es la Automatización Zero-Touch (ZTA)?",
+        "answer": "La Automatización Zero-Touch automatiza flujos de trabajo complejos y de múltiples pasos—como aprobaciones, enrutamiento, escalaciones y auditorías—proporcionando gobernanza total, registros y cumplimiento sin intervención manual."
+      },
+      {
+        "question": "¿Qué es el Acceso a Conocimiento por IA?",
+        "answer": "El Acceso a Conocimiento por IA utiliza Retrieval-Augmented Generation (RAG) para ofrecer respuestas basadas únicamente en documentos verificados de tu organización, asegurando precisión, cumplimiento y contenido siempre actualizado."
+      },
+      {
+        "question": "¿Pueden ZTA y RAG funcionar de forma independiente?",
+        "answer": "Sí. ZTA puede automatizar flujos incluso sin acceso a conocimiento, y RAG puede ofrecer respuestas verificadas sin automatización. Juntos ofrecen el mayor valor, pero cada uno puede desplegarse como una capacidad independiente según tus necesidades."
+      },
+      {
+        "question": "¿Cómo trabajan juntos ZTA y RAG?",
+        "answer": "ZTA gestiona acciones operativas automatizadas, mientras RAG aporta contexto verificado y respuestas en puntos de decisión. Combinados, permiten flujos autónomos y entrega de información precisa."
+      },
+      {
+        "question": "¿Es seguro Trayka?",
+        "answer": "Sí. Trayka aplica control de acceso estricto, cifrado, registros de auditoría y gobernanza. Todas las automatizaciones y respuestas de IA operan únicamente sobre tus fuentes de contenido aprobadas."
+      },
+      {
+        "question": "¿Dónde se almacena mi información?",
+        "answer": "Tu información se almacena de forma segura en la región cloud que elijas, siguiendo estrictas políticas organizacionales de acceso. Si lo prefieres, tus datos también pueden hospedarse on-premises en tus servidores. Trayka no utiliza ni comparte tus datos para entrenar modelos."
+      },
+      {
+        "question": "¿Trayka conserva o registra las conversaciones de los usuarios?",
+        "answer": "Trayka mantiene registros auditables solo si tu organización lo requiere. Los datos de conversaciones no se usan para entrenamiento externo y permanecen bajo tu propiedad y control."
+      },
+      {
+        "question": "¿Cómo garantiza Trayka el cumplimiento de las políticas organizacionales?",
+        "answer": "Todos los flujos de trabajo y respuestas se limitan a fuentes verificadas. Las reglas de gobernanza, el acceso por roles, la trazabilidad y la auditabilidad garantizan el cumplimiento de normas internas y externas."
+      },
+      {
+        "question": "¿Puede Trayka integrarse con nuestras herramientas existentes?",
+        "answer": "Sí. Trayka se integra con WhatsApp y otros chats, sistemas de correo electrónico, CRMs, portales internos, plataformas de RRHH, almacenes de datos y API personalizadas para integrarse perfectamente en los flujos de trabajo de su organización."
+      }
+    ]
+  },
+
+  "rags": {
+    "challenges": [
+      {
+        "title": "Contenido fragmentado",
+        "iconData": {
+          "name": "chat-email"
+        },
+        "description": "Información crítica repartida en discos, chats y correos."
+      },
+      {
+        "title": "Tiempo de búsqueda elevado",
+        "iconData": {
+          "name": "search-multiple"
+        },
+        "description": "Los equipos dedican el 30–40% del tiempo a buscar información."
+      },
+      {
+        "title": "Consultas repetitivas de soporte",
+        "iconData": {
+          "name": "support"
+        },
+        "description": "Las mesas de ayuda se saturan con preguntas frecuentes — uso ineficiente del tiempo del personal."
+      },
+      {
+        "title": "Información desactualizada",
+        "iconData": {
+          "name": "info-calendar"
+        },
+        "description": "Los portales gubernamentales a menudo se retrasan entre 2 y 6 semanas respecto a las actualizaciones de políticas.",
+        "theme": "secondary"
+      }
+    ],
+    "steps": [
+      {
+        "title": "Recolectar e indexar",
+        "description": "Reúne tus documentos y organízalos para que el sistema comprenda cada tema claramente."
+      },
+      {
+        "title": "Crear e implementar",
+        "description": "Lanza un asistente de chat privado o público que responda usando únicamente tu contenido verificado."
+      },
+      {
+        "title": "Refinar y optimizar",
+        "description": "Mejora las respuestas con el tiempo llenando vacíos de contenido y actualizando la información conforme cambie."
+      },
+      {
+        "title": "Escalar al equipo",
+        "description": "Envía consultas especializadas o sensibles directamente al departamento correcto cuando se requiera intervención humana."
+      },
+      {
+        "title": "Analítica e insights",
+        "description": "Entiende qué buscan las personas y utiliza los insights para mejorar el contenido y reducir preguntas repetidas."
+      },
+      {
+        "title": "Actualización continua",
+        "description": "Mantén la información fresca actualizando documentos regularmente y asegurando que las respuestas sigan siendo precisas."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Incorporación más rápida",
+        "description": "Reduce el tiempo que tardan en ser productivos los nuevos empleados.",
+        "iconData": {
+          "name": "team-alt"
+        }
+      },
+      {
+        "title": "Soporte eficiente",
+        "description": "Respuestas instantáneas para preguntas frecuentes — reduce la carga de los agentes.",
+        "iconData": {
+          "name": "checkmark-2"
+        }
+      },
+      {
+        "title": "Propiedad de datos y gobernanza",
+        "description": "Alojado en tu nube preferida, con registros de auditoría y controles de acceso.",
+        "iconData": {
+          "name": "database"
+        }
+      },
+      {
+        "title": "Multilingüe e inclusivo",
+        "description": "Soporte para múltiples idiomas para un acceso más amplio.",
+        "iconData": {
+          "name": "language"
+        }
+      }
+    ],
+  "title": "Base de Conocimiento impulsada por RAG",
+  "hero": {
+    "title": "Acceso al conocimiento más inteligente y verificado — Potenciado por IA",
+    "description": "Trayka es la plataforma completa para crear e implementar agentes de Conocimiento basados en IA para tu empresa o agencia gubernamental.",
+    "slogan": "Incorporación más rápida. Soporte más inteligente. Equipos más satisfechos."
+  },
+  "challenge": {
+    "title": "Tu conocimiento existe — solo que es inaccesible",
+    "desc1": "Tu organización genera conocimiento a diario — correos, documentos, hojas de cálculo, medios, presentaciones y chats — pero al estar sin estructurar, resulta imposible recuperarlo.",
+    "desc2": "El coste de volver a encontrar o recrear ese conocimiento perdido se acumula rápidamente."
+  },
+  "solution": {
+    "title": "La solución RAG",
+    "header": "Cómo Trayka ofrece una Base de Conocimiento sin fricciones",
+    "description": "Trayka combina la recuperación dirigida de tus documentos con un LLM que genera respuestas contextuales y precisas a través de casi cualquier interfaz de chat — WhatsApp, Instagram, Facebook y muchas otras."
+  },
+  "benefit": {
+    "title": "Beneficios clave",
+    "header": "Lo que gana tu organización",
+    "description": "Confianza, eficiencia y retención — todas las respuestas obtenidas únicamente de contenido aprobado."
+  },
+  "cta": {
+    "header": "Desata el poder del conocimiento de tu organización",
+    "description": "Optimiza tu Base de Conocimiento con Trayka."
+  }
+
+  },
+
+  "ztas": {
+    "challenges": [
+      {
+        "title": "Procesos manuales y de múltiples pasos",
+        "iconData": {
+          "name": "team-alt"
+        },
+        "description": "La mayoría de tareas requiere recolección, clasificación, enrutamiento y seguimiento manual."
+      },
+      {
+        "title": "Latencia en solicitudes",
+        "iconData": {
+          "name": "time"
+        },
+        "description": "Las solicitudes rebotan entre equipos debido a un enrutamiento poco claro o inconsistente. Las aprobaciones y escalaciones dependen de personas, no de reglas automatizadas."
+      },
+      {
+        "title": "Capacidad del personal saturada",
+        "iconData": {
+          "name": "support"
+        },
+        "description": "Reservas, actualizaciones, confirmaciones y registro de casos consumen horas diarias."
+      },
+      {
+        "title": "Retrasos en el servicio",
+        "iconData": {
+          "name": "timeline"
+        },
+        "description": "La entrega del servicio se vuelve impredecible sin seguimiento automatizado. Se producen incumplimientos de SLA porque las escalaciones dependen de supervisión manual."
+      },
+      {
+        "title": "Falta de ejecución continua",
+        "iconData": {
+          "name": "developer"
+        },
+        "description": "No existe ejecución de flujos 24×7 porque los humanos no pueden operar las 24 horas — pero los agentes sí."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Recolectar y estructurar",
+        "description": "Ingresar formularios, mensajes y entradas de flujo de trabajo para que los agentes comprendan cada solicitud."
+      },
+      {
+        "title": "Crear e implementar agentes",
+        "description": "Crear agentes privados y gobernados que ejecuten tareas usando flujos verificados."
+      },
+      {
+        "title": "Optimizar la automatización",
+        "description": "Cerrar brechas en los flujos y ajustar reglas para mejorar la precisión y eficiencia."
+      },
+      {
+        "title": "Escalar de forma inteligente",
+        "description": "Derivar casos sensibles o complejos a humanos con el contexto completo ya precargado."
+      },
+      {
+        "title": "Analizar y mejorar",
+        "description": "Rastrear patrones, SLAs y cuellos de botella para reducir carga y mejorar el rendimiento."
+      },
+      {
+        "title": "Actualizaciones continuas",
+        "description": "Mantener las automatizaciones fiables mediante actualizaciones continuas de procesos y contenido."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Incorporación más rápida",
+        "description": "Los nuevos empleados se adaptan rápidamente con flujos automatizados y ejecución clara.",
+        "iconData": {
+          "name": "team-alt"
+        }
+      },
+      {
+        "title": "Soporte eficiente",
+        "description": "Los agentes gestionan tareas rutinarias al instante, liberando a los equipos para trabajos de mayor valor.",
+        "iconData": {
+          "name": "checkmark-2"
+        }
+      },
+      {
+        "title": "Propiedad de datos y gobernanza",
+        "description": "Ejecuta la automatización en tu infraestructura con registros de auditoría y controles de acceso completos.",
+        "iconData": {
+          "name": "database"
+        }
+      },
+      {
+        "title": "Multilingüe e inclusivo",
+        "description": "Atiende a usuarios en varios idiomas con respuestas consistentes y automatizadas.",
+        "iconData": {
+          "name": "language"
+        }
+      },
+      {
+        "title": "Operaciones autónomas 24×7",
+        "description": "Las automatizaciones funcionan continuamente sin tiempo de inactividad, manteniendo los servicios sensibles y rápidos.",
+        "iconData": {
+          "name": "developer"
+        },
+        "theme": "secondary"
+      },
+      {
+        "title": "Consistente y sin errores",
+        "description": "Los agentes siguen flujos verificados en todo momento, eliminando errores humanos.",
+        "iconData": {
+          "name": "docket-check"
+        },
+        "theme": "secondary"
+      },
+      {
+        "title": "Resolución más rápida",
+        "description": "El enrutamiento automatizado, las actualizaciones y los seguimientos aceleran los tiempos de respuesta entre equipos y departamentos.",
+        "iconData": {
+          "name": "flash"
+        },
+        "theme": "secondary"
+      },
+      {
+        "title": "Escalable pero rentable",
+        "description": "Aumenta la capacidad desplegando más agentes en lugar de contratar más personal.",
+        "iconData": {
+          "name": "launch"
+        },
+        "theme": "secondary"
+      }
+    ],
+    "title": "Agentes de Automatización Zero-Touch",
+    "hero": {
+      "title": "Automatización que se ejecuta sola — IA agente diseñada para trabajo real",
+      "description": "Zero-Touch Automation es la plataforma de automatización agentic de Trayka que completa tareas de extremo a extremo — reservas, enrutamiento de incidencias, flujos internos y aprobaciones — manteniendo siempre trazabilidad y gobernanza.",
+      "slogan": "Haz menos. Automatiza más. Zero Touch."
+    },
+    "challenge": {
+      "title": "Los flujos manuales reducen la eficiencia en toda la organización",
+      "desc1": "Los cuellos de botella operativos provienen de procesos que no están automatizados. Un retraso en un proceso introduce latencia downstream.",
+      "desc2": "Los procesos manuales limitan tu capacidad de escalar de forma rentable."
+    },
+    "solution": {
+      "title": "Solución ZTA",
+      "header": "Cómo Trayka automatiza tus flujos de trabajo — con seguridad y gobernanza",
+      "description": "Desde la entrada hasta la resolución, los agentes observan entradas, actúan sobre procesos verificados y producen resultados auditables a través de los canales."
+    },
+    "benefit": {
+      "title": "Beneficios clave",
+      "header": "Lo que gana tu organización",
+      "description": "Automatización segura y predecible — cada tarea verificada y auditable."
+    },
+    "cta": {
+      "header": "Da a tus flujos de trabajo la capacidad de funcionar por sí mismos",
+      "description": "Comienza tu viaje de automatización con Trayka."
+    }
+  },
+
+  "career": {
+    "label": "Carreras",
+    "title": "Carreras en Trayka",
+    "description": "Únete a un equipo pequeño que desarrolla herramientas de automatización y IA agentic con prioridad en la privacidad.",
+    "slogan": "Donde las personas curiosas construyen ideas audaces",
+    "how-to-apply": "Cómo postular",
+    "apply-desc": "Envía un correo breve con lo siguiente a:",
+    "review": "Revisamos las solicitudes de forma continua y solo responderemos a los candidatos seleccionados para entrevistas.",
+    "equal": {
+      "title": "Igualdad de Oportunidades",
+      "description": "Trayka LLC es un empleador que ofrece igualdad de oportunidades. Damos la bienvenida a solicitantes de diversos orígenes y no discriminamos por raza, religión, género, orientación sexual, edad, discapacidad u otra categoría protegida."
+    },
+    "query": {
+      "title": "¿Preguntas?",
+      "description": "Si tienes preguntas sobre el puesto o el proceso de contratación, envíanos un correo a:"
+    },
+    "apply-details": [
+      "Tu CV o un breve resumen de tu experiencia",
+      "El área que te interesa (ingeniería, producto, investigación, diseño)",
+      "Enlaces a GitHub, portafolio o trabajo relevante (si aplica)",
+      "Fecha de inicio preferida y zona horaria"
+    ],
+    "jobs": [
+      {
+        "title": "Practicante de Marketing",
+        "description": "Colabora con los equipos de marketing y producto para crear contenido, ejecutar campañas y apoyar experimentos de crecimiento.",
+        "responsibilities": [
+          "Crear contenido de formato corto para redes sociales",
+          "Apoyar la interacción con la comunidad",
+          "Respaldar experimentos y análisis de marketing",
+          "Colaborar con el equipo de producto en mensajes y comunicación"
+        ],
+        "profile": [
+          {
+            "title": "Sólida capacidad de redacción",
+            "description": "Puedes comunicarte con claridad y crear contenido persuasivo en formato breve."
+          },
+          {
+            "title": "Interés en marketing e IA",
+            "description": "Te interesa entender cómo crecen los productos de IA y SaaS en los mercados actuales."
+          },
+          {
+            "title": "Pensamiento creativo",
+            "description": "Disfrutas generar ideas de contenido y experimentar con mensajes."
+          },
+          {
+            "title": "Familiaridad con redes sociales",
+            "description": "Entiendes cómo se comporta el contenido en plataformas como Instagram, LinkedIn y TikTok."
+          }
+        ],
+        "opening": 2
+      },
+      {
+        "title": "Practicante de Pruebas de Software",
+        "description": "Apoya al equipo de ingeniería con QA, pruebas de software, desarrollo de funcionalidades y experimentos tempranos de automatización.",
+        "responsibilities": [
+          "Asistir en pruebas de QA en diferentes proyectos",
+          "Colaborar con el equipo de ingeniería en pequeñas funcionalidades",
+          "Documentar hallazgos y casos de prueba",
+          "Apoyar experimentos de RAG y automatización"
+        ],
+        "profile": [
+          {
+            "title": "Conocimientos básicos de programación o pruebas",
+            "description": "Tienes familiaridad inicial con código o herramientas de pruebas de software."
+          },
+          {
+            "title": "Curiosidad por sistemas de IA",
+            "description": "Disfrutas explorar cómo funcionan los flujos agentic y sistemas de automatización."
+          },
+          {
+            "title": "Atención al detalle",
+            "description": "Puedes identificar problemas, inconsistencias y oportunidades de mejora."
+          },
+          {
+            "title": "Ganas de aprender",
+            "description": "Quieres experiencia práctica en ingeniería y disfrutas trabajar con mentores."
+          }
+        ],
+        "opening": 2
+      },
+      {
+        "title": "Practicante de Investigación",
+        "description": "Investiga tendencias de IA, analiza datos, apoya la estrategia de producto y genera insights para la toma de decisiones.",
+        "responsibilities": [
+          "Realizar investigación estructurada sobre IA, automatización y tendencias del mercado",
+          "Analizar el comportamiento de usuarios y métricas internas",
+          "Apoyar la estrategia de producto con informes e insights",
+          "Colaborar con equipos de marketing y tecnología en proyectos multifuncionales"
+        ],
+        "profile": [
+          {
+            "title": "Pensamiento analítico",
+            "description": "Eres capaz de descomponer información y formular conclusiones basadas en evidencia."
+          },
+          {
+            "title": "Interés en IA, psicología o estrategia de producto",
+            "description": "Disfrutas estudiar cómo las personas usan la tecnología y qué impulsa la adopción."
+          },
+          {
+            "title": "Comunicación clara",
+            "description": "Puedes resumir hallazgos complejos en insights o presentaciones concisas."
+          },
+          {
+            "title": "Mentalidad impulsada por la curiosidad",
+            "description": "Te gusta hacer preguntas, explorar patrones y profundizar en los temas."
+          }
+        ],
+        "opening": 1
+      }
+    ]
+  },
+  
+  "privacy" :{
+    "label": "Política de privacidad",
+    "contact-cta": "Contactar al equipo de privacidad",
+    "description": "Trayka LLC — comprometida con proteger tu privacidad y gestionar tus datos de manera responsable conforme a las prácticas de privacidad y protección de datos estándar de la industria.",
+    "slogan": "Automatización inteligente, privacidad sin compromisos."
+  },
+  "404": {
+    "title": "¡Ups! Esa página se ha perdido.",
+    "description": "Parece que este enlace tomó un camino equivocado. La página que buscas no está aquí—intenta volver al inicio o explorar algo nuevo.",
+    "slogan": "Dinos cómo podemos ayudarte."
+  }
+}

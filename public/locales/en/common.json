@@ -1,0 +1,534 @@
+{
+    "lang": "English",
+    "kb" : "Knowledge Base",
+    "kb_desc" : "Turn your spreadsheets, docs, media, presentations into a Q&A assistant",
+
+    "zta" : "Zero-Touch Automation",
+    "zta_desc" : "Agentic AI driven end-to-end automation - efficient & cost-effective",
+    "company" : "Company",
+    "services" : "Services",
+    "resources" : "Resources",
+    "blog" : "Blog",
+    "book" : "Book a demo",
+    "book_desc" : "Setup a free consultation to discuss how to optimise your operations",
+    "newsletter" : "Newsletter",
+    "newsletter_desc" : "Sign up for our newsletter to receive Trayka product and service updates",
+    "contactus" : "Contact us",
+    "launch" : "Launch project",
+    "case-studies" : "Case studies",
+    "cancel" : "Cancel",
+    "submit" : "Submit",
+    "more" : "Learn more",
+    "print" : "Print",
+    "backtohome" : "Back to home",
+    "challenge" : "The Challenge",
+    "kb_and_zta" : "RAG Knowledge Base and Zero-Touch Automation",
+
+    "dialog" : {
+        "project" : {
+            "title" : "Project details",
+            "desc" : "Let us know what you are looking to build — Knowledge Base, Automation, Customer Service Agent, others."
+        },
+        "newsletter" : {
+            "title" : "Sign up for our Newsletter",
+            "desc" : "Receive AI insights, industry news and updates on Trayka services."
+        },
+        "case-studies" : {
+            "title" : "Case Studies",
+            "desc" : "Let us know how we can send you the Case Studies."
+        },
+        "name" : "Name",
+        "email" : "Email address",
+        "newsletter_cta" : "Sign-up for our newsletter",
+        "newsletter_cta_desc" : "Receive updates on relevant industry news, products and services.",
+        "brief" : "Your project brief",
+        "messages" : {
+            "confirm" : {
+                "case-study" : "You will receive the case studies shortly.",
+                "project" : "We will be in touch shortly.",
+                "generic" : "Thank you for your interest."
+            },
+            "error" : {
+                "captcha" : "We are sorry but an error occurred. CAPTCHA V3 verification failed.",
+                "generic" : "We are sorry but an error occurred. Please try again.",
+                "network" : "Network error. Try again later."
+            }
+        }
+    },
+
+    "errors" :  {
+        "invalid_name" : "Please enter a valid name",
+        "invalid_email" : "Please enter a valid email"
+    },
+
+    "home" : {
+        "hero" : {
+            "slogan" : "Automate. Answer. Accelerate.",
+            "title" : "Agentic AI for real work",
+            "description" : "Trayka unifies Zero-Touch Automation and AI Knowledge Access enabling teams to work faster, surface verifiable answers to customers and teams, and scale operations without adding overheads."
+        },
+        "solutions" : {
+            "title" : "What Trayka delivers",
+            "slogan" : "Two capabilities. One platform.",
+            "zta" : "Automate complex, multi-step workflows from intake to resolution — including approvals, routing, logs and escalations — all with full governance and real-time visibility across teams.",
+            "kb" : "Provide fast, trustworthy responses drawn only from your organisation's approved sources — across chat, email, portals and internal systems — maintaining accuracy, compliance and up-to-date information everywhere."
+        },
+        "cta" : {
+            "header" : "Give your workflows and knowledge the power to run themselves",
+            "description" : "Start your automation & knowledge journey with a pilot or demo."
+        }
+    },
+
+    "faqs" : {
+        "title" : "FAQs",
+        "header" : "Common queries we get",
+        "description" : "Trayka Zero-Touch Automation and AI Knowledge Access (powered by RAG) is super easy and inexpensive to get started.",
+        "questions" : [
+            {
+                "question": "What is Trayka?",
+                "answer":
+                "Trayka is an AI platform that combines Zero-Touch Automation and AI Knowledge Access. It helps organisations automate workflows, surface verified answers, and scale operations efficiently without increasing overheads."
+            },
+            {
+                "question": "What is Zero-Touch Automation (ZTA)?",
+                "answer":
+                "Zero-Touch Automation automates complex, multi-step workflows—such as approvals, routing, escalations, and audits—providing full governance, logs, and compliance with no manual intervention."
+            },
+            {
+                "question": "What is AI Knowledge Access?",
+                "answer":
+                "AI Knowledge Access uses Retrieval-Augmented Generation (RAG) to deliver answers sourced only from your organisation's verified documents, ensuring accuracy, compliance, and always-up-to-date information."
+            },
+            {
+                "question": "Can ZTA and RAG work independently?",
+                "answer":
+                "Yes. ZTA can automate workflows even without knowledge access, and RAG can deliver verified answers without any automation. Together, they offer the most value, but each can be deployed as a standalone capability depending on your needs."
+            },
+            {
+                "question": "How do ZTA and RAG work together?",
+                "answer":
+                "ZTA handles automated operational actions, while RAG provides verified context and answers during decision points. Combined, they enable both autonomous workflows and accurate information delivery."
+            },
+            {
+                "question": "Is Trayka secure?",
+                "answer":
+                "Yes. Trayka enforces strict access control, encryption, audit logs, and governance. All automation and AI responses operate only on your approved content sources."
+            },
+            {
+                "question": "Where is my data stored?",
+                "answer":
+                "Your data is stored securely within your chosen cloud region, following strict organisational access policies. If you choose, your data can also be hosted on-premises on your servers. Trayka does not use or share your data for model training."
+            },
+            {
+                "question": "Does Trayka keep or log user conversations?",
+                "answer":
+                "Trayka maintains auditable logs only if your organisation requires them. Conversation data is not used for external training and remains under your ownership and control."
+            },
+            {
+                "question": "How does Trayka ensure compliance with organisational policies?",
+                "answer":
+                "All workflows and knowledge responses are restricted to verified sources. Governance rules, role-based access, traceability, and auditability ensure adherence to internal and external compliance standards."
+            },
+            {
+                "question": "Can Trayka integrate with our existing tools?",
+                "answer":
+                "Yes. Trayka integrates with WhatsApp and other chats, email systems, CRMs, internal portals, HRMS platforms, data stores, and custom APIs to fit seamlessly into your organisation's workflows."
+            }
+        ]
+    },
+
+    "rags" : {
+        "challenges" : [
+            {
+                "title": "Fragmented content",
+                "iconData": {
+                    "name": "chat-email"
+                },
+                "description": "Critical information spread across drives, chats, and emails."
+            },
+            {
+                "title": "High search time",
+                "iconData":{
+                    "name": "search-multiple"
+                },
+                "description": "Teams spend 30-40% of time searching for information."
+            },
+            {
+                "title": "Repetitive support queries",
+                "iconData": {
+                    "name": "support"
+                },
+                "description": "Helpdesks flooded with FAQs — inefficent use of staff time."
+            },
+            {
+                "title": "Outdated Information",
+                "iconData": {
+                    "name": "info-calendar"
+                },
+                "description": "Government portals often lag 2-6 weeks behind policy updates.",
+                "theme": "secondary"
+            }
+        ],
+        "steps" : [
+            {
+                "title": "Collect & Index",
+                "description": "Gather your documents and organise them so the system understands each topic clearly."
+            },
+            {
+                "title": "Build & Deploy",
+                "description": "Launch a private or public chat assistant that answers questions using only your verified content."
+            },
+            {
+                "title": "Refine & Optimize",
+                "description": "Improve answers over time by filling content gaps and updating information as things change."
+            },
+            {
+                "title": "Escalate to Team",
+                "description": "Send specialised or sensitive queries directly to the right department when human input is required."
+            },
+            {
+                "title": "Analytics & Insights",
+                "description": "Understand what people search for and use insights to improve content and reduce repeated queries."
+            },
+            {
+                "title": "Continuous Update",
+                "description": "Keep information fresh by regularly updating documents and ensuring answers stay accurate."
+            }
+        ],
+        "benefits" : [
+            {
+                "title": "Faster onboarding",
+                "description": "Reduce time-to-productivity for new hires.",
+                "iconData": {
+                    "name": "team-alt"
+                }
+            },
+            {
+                "title": "Efficient support",
+                "description": "Instant answers for FAQs — reduces agent load.",
+                "iconData": {
+                    "name": "checkmark-2"
+                }
+            },
+            {
+                "title": "Data ownership & governance",
+                "description": "Hosted on your preferred cloud, with audit logs & role controls.",
+                "iconData": {
+                    "name": "database"
+                }
+            },
+            {
+                "title": "Multilingual & inclusive",
+                "description": "Support for multiple languages for broad user access.",
+                "iconData": {
+                    "name": "language"
+                }
+            }
+        ],
+        "title" : "RAG Powered Knowledge Base",
+        "hero" : {
+            "title" : "Smarter, Verified Knowledge Access — Powered by AI",
+            "description" : "Trayka is the complete platform for building & deploying AI Knowledge agents for your business or government agency.",
+            "slogan" : "Faster Onboarding. Smarter Support. Happier Teams."
+        },
+        "challenge" : {
+            "title" : "Your Knowledge Exists — it's just inaccessible",
+            "desc1" : "You organisation generates knowledge daily — emails, documents, spreadsheets, media, presentations and chats — but because it is unstructured, it becomes impossible to retrieve.",
+            "desc2" : "The cost of re-finding or recreating that lost knowledge adds up quickly."
+        },
+        "solution" : {
+            "title" : "The RAG Solution",
+            "header" : "How Trayka delivers a frictionless Knowledge-Base",
+            "description" : "Trayka combines targeted retrieval of your documents with an LLM that generates accurate, contextual answers through almost any Chat Interface — WhatsApp, Instagram, Facebook, and many others."
+        },
+        "benefit" : {
+            "title" : "Key Benefits",
+            "header" : "What your organisation gains",
+            "description" : "Trust, efficiency, and retention — all answers sourced from approved content only."
+        },
+        "cta" : {
+            "header" : "Unleash the power of your organisation's knowledge",
+            "description" : "Streamline your Knowledge Base with Trayka."
+        }
+    },
+
+    "ztas" : {
+        "challenges" : [
+            {
+                "title": "Manual, Multi-Step Processes",
+                "iconData": {
+                    "name": "team-alt"
+                },
+                "description": "Most tasks require human collection, classification, routing, and follow-up."
+            },
+            {
+                "title": "Request latency",
+                "iconData":{
+                    "name": "time"
+                },
+                "description": "Requests bounce between teams due to unclear or inconsistent routing. Approvals and escalations depend on people, not automated rules."
+            },
+            {
+                "title": "Saturated staff bandwidth",
+                "iconData": {
+                    "name": "support"
+                },
+                "description": "Bookings, updates, confirmations, and case logging consume hours daily."
+            },
+            {
+                "title": "Service delays",
+                "iconData": {
+                    "name": "timeline"
+                },
+                "description": "Service delivery becomes unpredictable without automated tracking. SLA breaches happen because escalations rely on manual monitoring."
+            },
+            {
+                "title": "Lack of Continuous Process Execution",
+                "iconData": {
+                    "name": "developer"
+                },
+                "description": "There is no 24 U+0078 7 workflow execution because humans cannot operate around the clock — but agents can."
+            }
+        ],
+        "steps" : [
+            {
+                "title": "Collect & Structure",
+                "description": "Ingest forms, messages, and workflow inputs so agents understand every request."
+            },
+            {
+                "title": "Build & Deploy Agents",
+                "description": "Create private, governed agents that execute tasks using verified workflows."
+            },
+            {
+                "title": "Optimise Automation",
+                "description": "Close workflow gaps and fine-tune rules to improve accuracy and efficiency."
+            },
+            {
+                "title": "Escalate Intelligently",
+                "description": "Route sensitive or complex cases to humans with full context pre-filled."
+            },
+            {
+                "title": "Analyse & Improve",
+                "description": "Track patterns, SLAs, and bottlenecks to reduce workload and enhance performance."
+            },
+            {
+                "title": "Continuous Updates",
+                "description": "Keep automations reliable with ongoing updates to processes and content."
+            }
+        ],
+        "benefits" : [
+            {
+                "title": "Faster onboarding",
+                "description": "New hires ramp quickly with automated workflows and clear process execution.",
+                "iconData": {
+                    "name": "team-alt"
+                }
+            },
+            {
+                "title": "Efficient support",
+                "description": "Agents handle routine tasks instantly, freeing teams for higher-value work.",
+                "iconData": {
+                    "name": "checkmark-2"
+                }
+            },
+            {
+                "title": "Data ownership & governance",
+                "description": "Run automation on your infrastructure with full audit logs and access controls.",
+                "iconData": {
+                    "name": "database"
+                }
+            },
+            {
+                "title": "Multilingual & inclusive",
+                "description": "Serve users across languages with consistent and automated responses.",
+                "iconData": {
+                    "name": "language"
+                }
+            },
+            {
+                "title": "24×7 autonomous operations",
+                "description": "Automations run continuously without downtime, keeping services responsive around the clock.",
+                "iconData": {
+                    "name": "developer"
+                },
+                "theme":"secondary"
+            },
+            {
+                "title": "Consistent & error-free",
+                "description": "Agents follow verified workflows every time, eliminating human errors.",
+                "iconData": {
+                    "name": "docket-check"
+                },
+                "theme":"secondary"
+            },
+            {
+                "title": "Faster resolution",
+                "description": "Automated routing, updates and follow-ups accelerate turnaround across teams and departments.",
+                "iconData": {
+                    "name": "flash"
+                },
+                "theme":"secondary"
+            },
+            {
+                "title": "Scalable but cost-effective",
+                "description": "Increase capacity by deploying more agents instead of hiring more staff.",
+                "iconData": {
+                    "name": "launch"
+                },
+                "theme":"secondary"
+            }
+        ],
+        "title" : "Zero-Touch Automation agents",
+        "hero" : {
+            "title" : "Automation that runs itself — Agentic AI built for real work",
+            "description" : "Zero-Touch Automation is Trayka's agentic automation platform that completes tasks end-to-end — bookings, complaint routing, internal workflows and approvals — while remaining auditable and governed.",
+            "slogan" : "Do Less. Automate More. Zero Touch."
+        },
+        "challenge" : {
+            "title" : "Manual workflows reduce efficiency across the organisation",
+            "desc1" : "Operational bottlenecks come from processes that are not automated. Delay in one of the process introduces latency downstream.",
+            "desc2" : "Manual processes limit your capacity to scale in a cost effective way."
+        },
+        "solution" : {
+            "title" : "ZTA Solution",
+            "header" : "How Trayka automates your workflows — with safety and governance",
+            "description" : "From intake to resolution, agents observe inputs, act on verified processes, and produce auditable outcomes across channels."
+        },
+        "benefit" : {
+            "title" : "Key Benefits",
+            "header" : "What your organisation gains",
+            "description" : "Safe, predictable automation — every task verified and auditable."
+        },
+        "cta" : {
+            "header" : "Give your workflows the power to run themselves",
+            "description" : "Start your automation journey with Trayka."
+        }
+    },
+
+    "career" : {
+        "label" : "Careers",
+        "title" : "Careers at Trayka",
+        "description" : "Join a small team developing privacy-first automation and agentic AI tools.",
+        "slogan" : "Where curious people build bold ideas",
+        "how-to-apply" : "How to Apply",
+        "apply-desc" : "Send a short email with the following at:",
+        "review" : "We review applications on a rolling basis and will respond only to candidates selected for interviews.",
+        "equal" : {
+            "title" : "Equal Opportunity",
+            "description" : "Trayka LLC. is an equal opportunity employer. We welcome applicants from diverse backgrounds and do not discriminate on the basis of race, religion, gender, sexual orientation, age, disability, or any other protected status."
+        },
+        "query" : {
+            "title" : "Questions?",
+            "description" : "If you have any questions about the role or the hiring process, send us an email at:"
+        },
+        "apply-details" : [
+            "Your CV or a short summary of experience",
+            "Which area you're interested in (engineering, product, research, design)",
+            "Links to GitHub, portfolio, or relevant work (if any)",
+            "Preferred start date and time-zone"
+        ],
+        "jobs" : [
+            {
+                "title":  "Marketing Intern",
+                "description": "Work with marketing and product teams to create content, run campaigns, and support growth experiments.",
+                "responsibilities":  [
+                    "Create short-form content for social channels",
+                    "Assist with community engagement",
+                    "Support marketing experiments and research",
+                    "Collaborate with product teams on messaging"
+                ],
+                "profile":  [
+                {
+                    "title":  "Strong writing ability",
+                    "description":  "You can communicate clearly and craft compelling short-form content."
+                },
+                {
+                    "title":  "Interest in marketing & AI",
+                    "description":  "You're curious about how AI and SaaS products grow in modern markets."
+                },
+                {
+                    "title":  "Creative thinking",
+                    "description":  "You enjoy brainstorming content ideas and experimenting with messaging."
+                },
+                {
+                    "title":  "Social media familiarity",
+                    "description":  "You understand how content behaves across platforms like Instagram, LinkedIn, and TikTok."
+                }
+                ],
+                "opening": 2
+            },
+            {
+                "title":  "Software Testing Intern",
+                "description": "Support the engineering team with QA, software-testing, feature development, and early automation experiments.",
+                "responsibilities":  [
+                    "Assist with QA testing across projects",
+                    "Work with engineering team on small feature builds",
+                    "Document findings and test cases",
+                    "Support RAG/automation experiments"
+                ],
+                "profile":  [
+                {
+                    "title":  "Basic programming or testing knowledge",
+                    "description":  "You have beginner-level familiarity with coding or software testing tools."
+                },
+                {
+                    "title":  "Curiosity about AI systems",
+                    "description":  "You enjoy exploring how agentic workflows and automation systems function."
+                },
+                {
+                    "title":  "Attention to detail",
+                    "description":  "You can identify issues, inconsistencies, and opportunities for improvement."
+                },
+                {
+                    "title":  "Eagerness to learn",
+                    "description":  "You want hands-on engineering experience and enjoy working with mentors."
+                }
+                ],
+                "opening": 2
+            },
+            {
+                "title":  "Research Intern",
+                "description": 
+                "Research AI trends, analyse data, support product strategy, and generate insights for decision-making.",
+                "responsibilities":  [
+                    "Conduct structured research on AI, automation, and market trends",
+                    "Analyse user behaviour and internal metrics",
+                    "Support product strategy with reports and insights",
+                    "Collaborate with marketing and tech teams for cross-functional projects"
+                ],
+                "profile":  [
+                {
+                    "title":  "Analytical thinking",
+                    "description":  "You're skilled at breaking down information and forming evidence-based conclusions."
+                },
+                {
+                    "title":  "Interest in AI, psychology, or product strategy",
+                    "description":  "You enjoy studying how people use technology and what shapes adoption."
+                },
+                {
+                    "title":  "Clear communication",
+                    "description":  "You can summarise complex findings into concise insights or presentations."
+                },
+                {
+                    "title":  "Curiosity-driven mindset",
+                    "description":  "You like asking questions, exploring patterns, and digging deeper into topics."
+                }
+                ],
+                "opening": 1
+            }
+        ]
+    },
+    
+    "privacy" : {
+        "label" : "Privacy policy",
+        "contact-cta" : "Contact Privacy Team",
+        "description" : "Trayka LLC. — committed to protecting your privacy and handling your data responsibly in accordance with industry-standard data protection and privacy practices.",
+        "slogan" : "Smart automation, uncompromised privacy."
+    },
+
+    "404" : {
+        "title" : "Oops! That page drifted off.",
+        "description" : "Looks like this link took a wrong turn. The page you're searching for isn't here—try heading back home or exploring something new.",
+        "slogan" : "Tell us how can we help you."
+    }
+}
