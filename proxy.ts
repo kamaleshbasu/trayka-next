@@ -13,12 +13,12 @@ function getLocale(request: NextRequest) {
 export function proxy(request: NextRequest) {
 	const { pathname } = request.nextUrl;
 
-	if (pathname.startsWith("/_next") || pathname.startsWith("/api")  || pathname.includes(".")) {
-		return;
+	if (pathname === "/favicon.ico" || pathname === "/sitemap.xml") {
+		return NextResponse.next();
 	}
 
-	if (pathname === "/favicon.ico") {
-		return NextResponse.next();
+	if (pathname.startsWith("/_next") || pathname.startsWith("/api")  || pathname.includes(".")) {
+		return;
 	}
 
 	const hasLocale = locales.some((loc) =>
