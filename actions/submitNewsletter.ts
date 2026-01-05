@@ -2,7 +2,7 @@
 
 import {NewsletterSchemaType, NewsletterSchema } from "@/models/newsletter";
 import Mailchimp, { listId, subscriberHash } from "@/connect/mailchimp/mailchimp";
-import { supabase } from "@/connect/supbase/server";
+import { supabase } from "@/connect/supabase/server";
 
 export async function submitNewsletter(formData: NewsletterSchemaType & {token?: string}) {
   try {

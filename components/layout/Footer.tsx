@@ -33,7 +33,7 @@ const Footer = () : JSX.Element => {
     const resources = {
         title: "resources",
         links : [
-            {label : "blog", url: `/${locale}/blog`},
+            {label : "blog", url: process.env.NEXT_PUBLIC_BLOG_URL, target: "__blank"},
             {label : "book", url: process.env.NEXT_PUBLIC_DEMO_LINK, target: "__blank"},
         ]
     }
